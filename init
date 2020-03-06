@@ -1,0 +1,23 @@
+
+
+git config --global user.name "Shane Reddy";git config --global user.email "shane.reddy@ttiinc.com"
+git config --list
+git status
+git init
+git status
+git add *
+git status
+git commit -m "CAM and HATS first push, Development deploy scripts."
+git remote add origin http://txgitp01/Bonobo.Git.Server/MW_DevOps_Jenkins.git
+git push -u origin master
+git push -u origin master
+
+
+git rm -r --cached .
+git remote -v 
+git remote remove origin
+
+git remote add origin http://txgitp01/Bonobo.Git.Server/MW_DevOps.git
+
+
+git push http://tti\sreddy:t1pT0p123:password@txgitp01/Bonobo.Git.Server/MW_DevOps_Jenkins.git --all
